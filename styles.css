@@ -1,0 +1,617 @@
+body {
+  background-image: url(backgroundimage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: white;
+}
+/*index.html styles*/
+.navbar {
+  height: 100vh;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  width: 100%;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 70px;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 0 30px;
+  font-size: 100%;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+nav ul li a:hover {
+  color: #ff4040;
+  transition: 0.2s;
+}
+.home-content {
+  position: absolute;
+  top: 32%;
+  left: 53%;
+}
+.numbers {
+  color: #c7c7c7;
+  font-size: 25px;
+}
+.tags {
+  color: #767674;
+}
+.name {
+  color: #ff4040;
+  font-size: 5vh;
+  text-shadow: 4px 2px 2px rgb(80, 80, 80), 2px -3px 3px rgba(255, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 4vh;
+  font-family: "Poppins", sans-serif;
+}
+.home-content,
+p {
+  margin-top: 20px;
+  font-size: 3vh;
+  line-height: 33px;
+  font-family: "Nunito", sans-serif;
+}
+.white-background {
+  height: 60%;
+  width: 23%;
+  background-color: white;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+.profile-pic {
+  max-width: 15%;
+  position: absolute;
+  left: 24%;
+  top: 32%;
+  border-radius: 900%;
+  border: 10px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.hr1 {
+  width: 4%;
+  height: 3px;
+  position: absolute;
+  top: 70%;
+  left: 29.5%;
+  background-color: black;
+}
+.logo2 {
+  border-radius: 60%;
+  max-width: 30px;
+  position: absolute;
+  top: 75%;
+  left: 32%;
+}
+.logo1 {
+  border-radius: 60%;
+  max-width: 30px;
+  position: absolute;
+  top: 75%;
+  position: absolute;
+  left: 29%;
+}
+.btn1 {
+  position: absolute;
+  top: 116%;
+  left: 26%;
+  background-color: black;
+  height: 50px;
+  font-size: 16px;
+  border: solid white 2px;
+  border-radius: 40px;
+  padding: 5px 30px;
+  font-family: "Nunito", sans-serif;
+}
+.btn1:hover {
+  cursor: pointer;
+  color: #ff4040;
+  border-color: #ff4040;
+  transition: 0.2s;
+}
+
+/*aboutme.html styles*/
+.hr5 {
+  position: absolute;
+  top: 8%;
+  width: 100%;
+  height: 7px;
+  background-color: white;
+}
+
+.hr4 {
+  height: 11%;
+  width: 6px;
+  position: absolute;
+  top: 9%;
+  left: 50.5%;
+  background-color: white;
+}
+
+.hr7 {
+  width: 60%;
+  background-color: white;
+  height: 6px;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+.hr8,
+.hr9,
+.hr10,
+.hr11 {
+  height: 100px;
+  width: 6px;
+  background-color: white;
+  position: absolute;
+  top: 20%;
+}
+.hr8 {
+  left: 20%;
+}
+.hr9 {
+  left: 40%;
+}
+.hr10 {
+  right: 40%;
+}
+.hr11 {
+  right: 20%;
+}
+
+.pspic,
+.cpic,
+.tpic,
+.ppic {
+  width: 12%;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+}
+
+.pspic {
+  left: 15%;
+}
+.cpic {
+  left: 34%;
+}
+.tpic {
+  right: 34%;
+}
+.ppic {
+  right: 14%;
+}
+.psh2,
+.ch2,
+.th2,
+.ph2 {
+  position: absolute;
+  font-size: 1.5vw;
+  bottom: 36%;
+  font-family: "Poppins", sans-serif;
+}
+.psh2 {
+  left: 15%;
+}
+.ch2 {
+  left: 36.5%;
+}
+.th2 {
+  right: 36%;
+}
+.ph2 {
+  right: 16.5%;
+}
+.psp,
+.cp,
+.tp,
+.pp {
+  font-size: 1.2vw;
+  position: absolute;
+}
+.psp {
+  bottom: 16%;
+  left: 14%;
+}
+.cp {
+  bottom: 20.5%;
+  left: 33.5%;
+}
+.tp {
+  bottom: 20.5%;
+  right: 31%;
+}
+.pp {
+  bottom: 20.5%;
+  right: 11%;
+}
+.skills-button {
+  position: absolute;
+  left: 44%;
+  bottom: 7%;
+  font-size: 2.7vh;
+  background-color: black;
+  padding: 3px 40px;
+  border: white double 6px;
+}
+.skills-button:hover {
+  color: #ff4040;
+  border-color: #ff4040;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/*skills.html styles*/
+
+.skills-title {
+  color: #ff4040;
+  font-size: 6vh;
+  font-family: "Abril Fatface";
+  font-weight: 100;
+  position: absolute;
+  top: 48%;
+  left: 12%;
+  text-shadow: 2px 2px 3px rgb(80, 80, 80), 2px -3px 3px rgba(255, 0, 0, 0.5);
+}
+
+.python-p,
+.css-p,
+.html-p,
+.numpy-p,
+.pandas-p,
+.matplotlib-p,
+.seaborn-p {
+  position: absolute;
+  color: #ff4040;
+  font-size: 4.5vh;
+  font-family: "Poppins", sans-serif;
+}
+.python-p {
+  top: 48%;
+  right: 40%;
+}
+.css-p {
+  bottom: 25%;
+  right: 30%;
+}
+
+.html-p {
+  top: 27%;
+  right: 25%;
+}
+.numpy-p {
+  bottom: 40%;
+  right: 10%;
+  color: #ac1313;
+  font-size: 3.5vh;
+}
+.pandas-p {
+  bottom: 35%;
+  right: 25%;
+  color: #ac1313;
+  font-size: 3vh;
+}
+.matplotlib-p {
+  top: 40%;
+  right: 15%;
+  color: #ac1313;
+  font-size: 3vh;
+}
+.seaborn-p {
+  top: 35%;
+  right: 33%;
+  color: #ac1313;
+  font-size: 3vh;
+}
+.experiences-button {
+  position: absolute;
+  left: 12%;
+  bottom: 20%;
+  font-size: 2.7vh;
+  background-color: black;
+  padding: 3px 40px;
+  border: white double 6px;
+}
+.experiences-button:hover {
+  color: #ff4040;
+  border-color: #ff4040;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/*experiences.html styles*/
+.hr12 {
+  position: absolute;
+  top: 11%;
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+.hr13 {
+  position: absolute;
+  top: 11%;
+  left: 20%;
+  height: 430%;
+  width: 7px;
+  background-color: white;
+}
+.date1 {
+  position: absolute;
+  left: 8%;
+  top: 15%;
+}
+.uniconh1 {
+  position: absolute;
+  top: 17%;
+  left: 25%;
+  font-family: "Poppins", sans-serif;
+}
+.uniconp {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-size: 2.7vh;
+  max-width: 30%;
+}
+.nespic,
+.giantspic,
+.impactpic,
+.blockchainpic,
+.flintpic {
+  width: 13%;
+  position: absolute;
+}
+.nespic {
+  top: 15%;
+  right: 30%;
+}
+.giantspic {
+  top: 15%;
+  right: 16%;
+}
+.impactpic {
+  top: 15%;
+  right: 2%;
+}
+.blockchainpic {
+  bottom: 2%;
+  right: 25%;
+}
+.flintpic {
+  bottom: 2%;
+  right: 10%;
+}
+.date2 {
+  position: absolute;
+  left: 8%;
+  bottom: -23%;
+}
+.certf-h1 {
+  position: absolute;
+  left: 25%;
+  bottom: -23.5%;
+}
+.fcc-h2 {
+  position: absolute;
+  left: 25%;
+  bottom: -32%;
+  color: #ff4040;
+  font-family: "Nunito", sans-serif;
+  font-size: 4vh;
+}
+.rwd-h3 {
+  position: absolute;
+  bottom: -37%;
+  left: 25%;
+  font-family: "Nunito", sans-serif;
+  font-size: 3vh;
+}
+.rwdskills-p {
+  position: absolute;
+  bottom: -43%;
+  left: 25%;
+  font-size: 2.5vh;
+}
+.gl-h2 {
+  position: absolute;
+  left: 25%;
+  bottom: -52%;
+  font-family: "Nunito";
+  color: #ff4040;
+  font-size: 4vh;
+}
+.gl-h3 {
+  position: absolute;
+  left: 25%;
+  bottom: -62%;
+  font-size: 3vh;
+  font-family: "Nunito", sans-serif;
+}
+.libraries-p {
+  position: absolute;
+  bottom: -67%;
+  left: 25%;
+  font-size: 2.5vh;
+}
+.pythoncert,
+.rwdcert,
+.mlcert {
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  object-fit: cover;
+}
+.pythoncert {
+  right: 25%;
+  bottom: -50%;
+}
+.rwdcert {
+  right: 2%;
+  bottom: -50%;
+}
+.mlcert {
+  right: 13%;
+  bottom: -85%;
+}
+.v-1 {
+  position: absolute;
+  left: 25%;
+  bottom: 5%;
+  font-size: 1vh;
+  background-color: black;
+  padding: 3px 20px;
+  border: white double 6px;
+}
+.v-1:hover {
+  color: #ff4040;
+  border-color: #ff4040;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.v-2 {
+  position: absolute;
+  left: 25%;
+  bottom: -80%;
+  font-size: 1vh;
+  background-color: black;
+  padding: 3px 20px;
+  border: white double 6px;
+}
+.v-2:hover {
+  color: #ff4040;
+  border-color: #ff4040;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.date3{
+    position:absolute;
+    bottom:-104%;
+    left:8%;
+}
+.projects-h1{
+    position: absolute;
+    left: 25%;
+    bottom: -105%;
+}
+.web-h2{
+    position: absolute;
+    left: 25%;
+    bottom: -113%;
+    color: #ff4040;
+    font-family: "Nunito", sans-serif;
+    font-size: 4vh;
+}
+.wix1,.wix2{
+    position:absolute;
+}
+.wix1{
+    bottom:-155%;
+    left:25%;
+    width:35%;
+}
+.wix2{
+    bottom:-155%;
+    right:4%;
+    width:34%;
+}
+.projects-p1{
+    position:absolute;
+    bottom:-180%;
+    left:25%;
+    width:70%;
+}
+.analysis-h2{
+    position: absolute;
+    left: 25%;
+    bottom: -195%;
+    color: #ff4040;
+    font-family: "Nunito", sans-serif;
+    font-size: 4vh;
+}
+.analysis1{
+    position:absolute;
+    width:32%;
+    bottom:-240%;
+    left:25%;
+}
+.analysis2{
+    position:absolute;
+    width:35%;
+    right:4%;
+    bottom:-240%;
+}
+.analysis3{
+    position:absolute;
+    width:32%;
+    bottom:-265%;
+    left:25%;
+}
+.analysis4{
+    position:absolute;
+    width:35%;
+    right:4%;
+    bottom:-265%
+}
+.lineplot{
+    position:absolute;
+    width:32%;
+    bottom:-315%;
+    left:25%;
+}
+.pivottable{
+    position:absolute;
+    width:32%;
+    bottom:-320%;
+    right:7%;
+}
+.analysis-p1{
+    position:absolute;
+    bottom:-200%;
+    left:25%;
+}
+.analysis-p2{
+    position:absolute;
+    left:25%;
+    bottom:-322%;
+}
+.analysis-p3{
+    position:absolute;
+    right:7%;
+    bottom:-326%;
+}
+.end{
+    position:absolute;
+    bottom:-335%;
+    left:25%;
+    color: #ff4040;
+    font-family: 'Poppins',sans-serif;
+}
